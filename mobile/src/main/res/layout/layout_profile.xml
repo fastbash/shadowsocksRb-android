@@ -41,7 +41,9 @@
             android:focusable="true"
             android:nextFocusLeft="@+id/container"
             android:padding="12dp"
-            app:srcCompat="@drawable/ic_social_share" />
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_social_share"
+        />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/edit"
@@ -72,6 +74,7 @@
             android:maxLines="2"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="?android:attr/textColorSecondary"
+            android:visibility="invisible"
             tools:text="@string/profile_plugin" />
 
         <com.github.shadowsocks.widget.AutoCollapseTextView

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:initialExpandedChildrenCount="7">
+    app:initialExpandedChildrenCount="4">
+    <SwitchPreference
+        app:key="ssrsub_autoupdate"
+        app:summary="@string/ssrsub_autoupdate_summary"
+        app:title="@string/ssrsub_autoupdate" />
+    <Preference
+        app:icon="@drawable/ic_baseline_rss_feed_24"
+        app:key="ssrSub"
+        app:title="@string/ssrsub_manage" />
+    <EditTextPreference
+        app:icon="@drawable/ic_action_assignment"
+        app:key="acl_url"
+        app:title="@string/acl_url_title"
+        app:useSimpleSummaryProvider="true" />
     <SwitchPreference
         app:key="isAutoConnect"
         app:summary="@string/auto_connect_summary"
@@ -18,19 +31,7 @@
     <EditTextPreference
         app:key="hosts"
         app:title="hosts" />
-    <EditTextPreference
-        app:icon="@drawable/ic_action_assignment"
-        app:key="acl_url"
-        app:title="@string/acl_url_title"
-        app:useSimpleSummaryProvider="true" />
 
-    <Preference
-        app:key="ssrSub"
-        app:title="@string/ssrsub_manage" />
-    <SwitchPreference
-        app:key="ssrsub_autoupdate"
-        app:summary="@string/ssrsub_autoupdate_summary"
-        app:title="@string/ssrsub_autoupdate" />
 
     <com.takisoft.preferencex.SimpleMenuPreference
         app:defaultValue="vpn"

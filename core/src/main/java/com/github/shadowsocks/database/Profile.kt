@@ -56,7 +56,7 @@ data class Profile(
         var obfs: String = "plain",
         var obfs_param: String = "",
         var method: String = "aes-256-cfb",
-        var route: String = "all",
+        var route: String = "custom-rules",
         var remoteDns: String = "8.8.8.8:53",
         var proxyApps: Boolean = false,
         var bypass: Boolean = false,

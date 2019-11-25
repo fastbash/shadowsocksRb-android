@@ -22,7 +22,7 @@
 -->
 
 <resources>
-    <string name="app_name">"影梭"</string>
+    <string name="app_name">"小飞机"</string>
     <string name="quick_toggle">"切換"</string>
     <string name="remote_dns">"遠程 DNS"</string>
     <string name="stat_summary">"傳送: \t%3$s\t↑\t%1$s/s
@@ -84,7 +84,7 @@
     <!-- menu category -->
     <string name="profiles">"設定檔"</string>
     <string name="settings">"設定"</string>
-    <string name="faq">"常見問題"</string>
+    <string name="faq">"版本说明"</string>
     <string name="about">"關於"</string>
     <string name="about_title">"Shadowsocks %s"</string>
     <string name="edit">"編輯"</string>

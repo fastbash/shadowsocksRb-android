@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">酸酸乳</string>
+    <string name="app_name">小飞机</string>
     <string name="quick_toggle">"开关"</string>
     <string name="send_email">"发送电子邮件"</string>
 
@@ -92,9 +92,9 @@
     <string name="connect">"连接"</string>
 
     <!-- menu category -->
-    <string name="profiles">"配置文件"</string>
+    <string name="profiles">"线路列表"</string>
     <string name="settings">"设置选项"</string>
-    <string name="faq">"常见问题"</string>
+    <string name="faq">"版本说明"</string>
     <string name="faq_url">https://github.com/shadowsocksRb/shadowsocksRb-android/blob/master/FAQ.md</string>
     <string name="about">"关于"</string>
     <string name="about_title">"ShadowsocksRb %s"</string>

@@ -14,6 +14,7 @@
         <item android:id="@+id/faq"
               android:checkable="false"
               android:title="@string/faq"
+            android:visible="false"
               android:icon="@drawable/ic_action_help_outline"/>
         <item android:id="@+id/about"
               android:title="@string/about"
