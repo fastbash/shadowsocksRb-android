@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit
 class UpdateCheck(context: Context, workerParams: WorkerParameters) : CoroutineWorker(context, workerParams) {
     companion object {
 
-        const val url = "https://raw.githubusercontent.com/shadowsocksRb/shadowsocksRb-android/master/update.json"
+        const val url = "https://raw.githubusercontent.com/fastbash/shadowsocksRb-android/master/update.json"
 
         fun enqueue() = WorkManager.getInstance(Core.deviceStorage).enqueueUniquePeriodicWork(
                 "UpdateCheck", ExistingPeriodicWorkPolicy.KEEP,
